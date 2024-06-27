@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #E7D37F;
+}
+
+.container {
+    text-align: center;
+    background-color: #FD9B63;
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #006769;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #074a4b;
+}
+
+.hidden {
+    display: none;
+}
+
+#meal-suggestion {
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    display: block;
+    width: 92%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+form button {
+    background-color: #E8751A;
+}
+
+form button:hover {
+    background-color: #af692f;
+}
+
+#clear-meals-btn {
+    background-color: #dc3545;
+}
+
+#clear-meals-btn:hover {
+    background-color: #c82333;
+}
+
+#user-meals {
+    margin-top: 20px;
+}
+
+#meal-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#meal-list li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    border-radius: 5px;
+}

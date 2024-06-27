@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAKAN?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>What to Makan?</h1>
+        <button id="random-meal-btn">Suggest a Meal</button>
+        <div id="meal-suggestion" class="hidden">
+            <h2 id="meal-name"></h2>
+            <p id="meal-description"></p>
+        </div>
+        <form id="meal-form">
+            <input type="text" id="meal-name-input" placeholder="Meal Name" required>
+            <textarea id="meal-description-input" placeholder="Meal Description" required></textarea>
+            <button type="submit">Add Meal</button>
+        </form>
+        <button id="clear-meals-btn">Clear Meals</button>
+        <div id="user-meals">
+            <h2>Added Meals</h2>
+            <ul id="meal-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
