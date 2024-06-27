@@ -1,9 +1,5 @@
 let meals = [
-    { name: "Western Food", description: "burger, pizza, fries" },
-    { name: "Chinese Food", description: "rice or noodles" },
-    { name: "Japanese Food", description: "sushi, ramen" },
-    { name: "Korean Food", description: "bibimbap, kimchi, ramen, chicken, bbq" },
-    { name: "Mamak", description: "roti canai, mee goreng" }
+    { name: "Oops, try again", description: "dunno what to eat?" }
 ];
 
 const userMeals = [];
